@@ -1,0 +1,33 @@
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #0f0303ff; /* unified background */
+  padding: 2rem;
+}
+
+#hero div {
+  text-align: center;
+  max-width: 600px;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  color: #502b2b;
+  margin-bottom: 2rem;
+}
+
+#hero img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #007bff;
+}

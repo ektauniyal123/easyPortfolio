@@ -1,0 +1,80 @@
+#projects {
+  padding: 2rem;
+  background-color: #0f0303ff;
+  color: #fff;
+  text-align: center;
+}
+
+.project-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #c31b6cff;
+}
+
+/* Grid layout: 4 cards in one row */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards in one row */
+  gap: 2rem; /* bigger gap for breathing space */
+  justify-items: center;
+  align-items: stretch;
+}
+
+/* Individual project card */
+.project-card {
+  background-color: #1a0b0b;
+  padding: 2rem; /* bigger padding */
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px; /* bigger box */
+  min-height: 300px; /* make all cards taller */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px); /* slightly bigger hover effect */
+}
+
+.project-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #c31b6cff;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+  color: #e7e1e5ff;
+  height: auto; /* allow full description */
+  overflow: hidden;
+}
+
+.project-buttons a {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.5rem 1rem; /* bigger buttons */
+  background-color: #c31b6cff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.project-buttons a:hover {
+  background-color: #ff4c6d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
