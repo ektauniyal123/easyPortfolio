@@ -3,15 +3,13 @@ Ekta Uniyal Portfolio
 A responsive personal portfolio built with React, Framer Motion, and modern CSS.
 It showcases my projects, about section, resume, and a contact form using EmailJS.
 
-
-Screenshots
-![Hero / Home Page](C:\Users\ACER\Downloads\ekta-portfolio\ekta-portfolio\public\screenshot\Screenshot1.png)
-![About Section](C:\Users\ACER\Downloads\ekta-portfolio\ekta-portfolio\public\screenshot\Screenshot 2.png)
-![Resume Section](C:\Users\ACER\Downloads\ekta-portfolio\ekta-portfolio\public\screenshot\Screenshot3.png)
-![Projects Section](C:\Users\ACER\Downloads\ekta-portfolio\ekta-portfolio\public\screenshot\screenshot4.png)
-![Contact Me](C:\Users\ACER\Downloads\ekta-portfolio\ekta-portfolio\public\screenshot\Screenshot5.png)
-![Email Sent](C:\Users\ACER\Downloads\ekta-portfolio\ekta-portfolio\public\screenshot\screenshot6.png)
-![Email Received](C:\Users\ACER\Downloads\ekta-portfolio\ekta-portfolio\public\screenshot\screenshot7.png)
+![Hero / Home Page]
+![About Section]
+![Resume Section]
+![Projects Section]
+![Contact Me]
+![Email Sent]
+![Email Received]
 
 
 
