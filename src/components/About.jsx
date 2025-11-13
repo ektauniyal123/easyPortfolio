@@ -8,7 +8,7 @@ function About() {
     <motion.section
       id="about"
       className="section"
-      style={{ backgroundColor: "#0f0303ff", padding: "3rem 2rem" }}
+      style={{ backgroundColor: "rgba(15,3,3,1)", padding: "3rem 2rem" }}
       initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
@@ -17,7 +17,7 @@ function About() {
       {/* Title Animation */}
       <motion.h2
         className="section-title"
-        style={{ color: "#c31b6cff", textAlign: "center", marginBottom: "2rem", fontSize: "2.5rem" }}
+        style={{ color: "#c31b6c", textAlign: "center", marginBottom: "2rem", fontSize: "2.5rem" }}
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -42,15 +42,14 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <div style={{ maxWidth: "600px", color: "#e7e1e5ff", textAlign: "left", lineHeight: "1.6" }}>
-          <p style={{ fontSize: "1.5rem", fontWeight: "bold", marginBottom: "1rem", color: "#c31b6cff" }}>
-          Hi, I'm Ekta Uniyal
-          </p>
-          <p style={{ fontSize: "1.1rem", marginBottom: "1rem" }}>
-           I specialize in React, JavaScript, and front-end design. My goal is to blend logic and creativity to
-           craft seamless user experiences that look beautiful and work flawlessly.
-           </p>
-           </div>
+          <div style={{ maxWidth: "600px", color: "#e7e1e5", textAlign: "left", lineHeight: "1.6" }}>
+            <p style={{ fontSize: "1.5rem", fontWeight: "bold", marginBottom: "1rem", color: "#c31b6c" }}>
+              Hi, I'm Ekta Uniyal
+            </p>
+            <p style={{ fontSize: "1.1rem", marginBottom: "1rem" }}>
+              I specialize in React, JavaScript, and front-end design.
+            </p>
+          </div>
 
           {/* Animated Social Links */}
           <motion.div
@@ -60,7 +59,7 @@ function About() {
             transition={{ delay: 0.6, duration: 0.8 }}
           >
             <motion.a
-              href="https://www.linkedin.com/in/ekta-uniyal-694053282"
+              href="https://linkedin.com/in/your-username" // placeholder for others to replace
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -71,7 +70,7 @@ function About() {
             </motion.a>
 
             <motion.a
-              href="https://github.com/ektauniyal123"
+              href="https://github.com/your-username" // placeholder
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: -5 }}
@@ -82,7 +81,7 @@ function About() {
             </motion.a>
 
             <motion.a
-              href="https://www.instagram.com/ekta____uniyal?igsh=eHh3MzJ5bWw2dWs1"
+              href="https://instagram.com/your-username" // placeholder
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -104,6 +103,10 @@ function About() {
           <motion.img
             src="/ekta-cartoon.jpg"
             alt="Ekta Cartoon"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = "https://via.placeholder.com/220"; // fallback image
+            }}
             animate={{
               y: [0, -15, 0],
               rotate: [0, 2, -2, 0],

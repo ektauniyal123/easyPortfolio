@@ -38,7 +38,7 @@ function Resume() {
 
       {/* Floating subtle animation for button */}
       <motion.a
-        href="https://drive.google.com/file/d/18lOGC24FFfnJaZkLesLPnLaVfV4p3N9U/view?usp=drivesdk"
+        href="resume link"
         target="_blank"
         rel="noopener noreferrer"
         animate={{

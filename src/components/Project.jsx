@@ -5,31 +5,27 @@ import './Project.css'; // make sure this CSS has the updated rules
 const projects = [
   {
     name: "Quiz Application",
-    description:
-      "An interactive and fully responsive web-based quiz application designed to test users’ knowledge across multiple topics. It dynamically fetches questions, tracks scores in real time, and provides instant feedback after submission. Built using HTML, CSS, and JavaScript, the app features smooth transitions, intuitive UI, and a progress tracker for better user engagement.",
-    github: "https://github.com/ektauniyal123/Quiz-application.git",
-    live: "https://core-fundamentalsquiz-application.netlify.app/",
+    description:"#",
+    github: "#YOUR_GITHUB_LINK", // placeholder
+    live: "#YOUR_LIVE_LINK",     // placeholder
   },
   {
     name: "E-Commerce Website",
-    description:
-      "A front-end e-commerce website built to simulate a real-world online shopping experience. It includes product listings, category filters, responsive layouts, and a shopping cart interface. Developed using HTML, CSS, and JavaScript, the site emphasizes clean UI/UX design, mobile responsiveness, and performance optimization for seamless navigation.",
-    github: "https://github.com/ektauniyal123/ecommercewebsite.git",
-    live: "https://ektauniyal123.github.io/ecommercewebsite/",
+    description:"#" ,
+    github: "#YOUR_GITHUB_LINK", // placeholder
+    live: "#YOUR_LIVE_LINK",     // placeholder
   },
   {
     name: "To-Do App",
-    description:
-      "A simple yet effective to-do list web application that helps users manage daily tasks efficiently. It allows users to add, edit, delete, and mark tasks as completed. Designed with a minimalist interface using HTML, CSS, and JavaScript, this app focuses on local storage integration to retain user data even after browser refresh.",
-    github: "https://github.com/ektauniyal123/to-do-app.git",
-    live: "https://ektauniyal123.github.io/to-do-app/",
+    description:"#",
+    github: "#YOUR_GITHUB_LINK", // placeholder
+    live: "#YOUR_LIVE_LINK",     // placeholder
   },
   {
     name: "Bookstore App",
-    description:
-      "A responsive bookstore management web app that allows users to browse, add, and manage books efficiently. It provides an organized view of book details like author, genre, and price, along with smooth navigation and sorting functionality. Developed using React.js and CSS, the app ensures scalability and modern UI components for a real-world e-commerce-like experience.",
-    github: "https://github.com/ektauniyal123/bookstoreapp.git",
-    live: "#",
+    description:"#",
+    github: "#YOUR_GITHUB_LINK", // placeholder
+    live: "#YOUR_LIVE_LINK",     // placeholder
   },
 ];
 

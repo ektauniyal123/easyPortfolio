@@ -12,10 +12,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_5w7f87b", // Your Service ID
-        "template_le5eppj", // Your Template ID
+        "YOUR_SERVICE_ID", // placeholder for Service ID
+        "YOUR_TEMPLATE_ID", // placeholder for Template ID
         form.current,
-        "dFPekw9iozl3CEYlx" // Your Public Key
+        "YOUR_PUBLIC_KEY" // placeholder for Public Key
       )
       .then(
         (result) => {
@@ -72,7 +72,7 @@ function Contact() {
             lineHeight: "1.8",
           }}
         >
-          <p>Email: <strong>uniyale02@gmail.com</strong></p>
+          <p>Email: <strong>your-email@example.com</strong></p>
           <p>Location: Dehradun, India</p>
         </motion.div>
 
