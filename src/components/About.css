@@ -1,0 +1,11 @@
+#about {
+  padding: 4rem 2rem;
+  background-color: #0f0303ff; /* unified background */
+  color: #fff;
+}
+
+#about h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #c31b6cff;
+}

@@ -1,0 +1,249 @@
+/* =============================
+   GENERAL STYLES
+============================= */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #080606;
+  color: #fff;
+}
+
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* =============================
+   HERO SECTION
+============================= */
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #080606;
+  padding: 2rem;
+}
+
+#hero div {
+  text-align: center;
+  max-width: 600px;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #c31b6c;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  color: #502b2b;
+  margin-bottom: 2rem;
+}
+
+#hero img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #007bff;
+}
+
+/* =============================
+   ABOUT SECTION
+============================= */
+#about {
+  background-color: #080606;
+}
+
+#about h2 {
+  color: #c31b6c;
+  margin-bottom: 2rem;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #fff;
+}
+
+/* =============================
+   RESUME SECTION
+============================= */
+#resume {
+  background-color: #080606;
+}
+
+#resume h2 {
+  color: #c31b6c;
+  margin-bottom: 2rem;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-container a {
+  padding: 0.8rem 2rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.resume-container a:hover {
+  background-color: #0056b3;
+}
+
+/* =============================
+   PROJECTS SECTION
+============================= */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.project-card {
+  background-color: #232121;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(153, 3, 3, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card h3 {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.project-card p.project-description {
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-buttons a {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.project-buttons a:hover {
+  background-color: #0056b3;
+}
+
+/* =============================
+   CONTACT SECTION
+============================= */
+#contact {
+  background-color: #080606;
+}
+
+#contact h2 {
+  color: #c31b6c;
+  margin-bottom: 2rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1 1 300px;
+  background-color: #232121;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(153, 3, 3, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* =============================
+   MEDIA QUERIES
+============================= */
+@media (max-width: 768px) {
+  #hero {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  #hero img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  .project-card {
+    width: 95%;
+  }
+}

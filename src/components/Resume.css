@@ -1,0 +1,25 @@
+#resume {
+  padding: 4rem 2rem;
+  background-color: #0f0303ff; /* unified background */
+  color: #fff;
+}
+
+#resume h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #c31b6cff;
+}
+
+.resume-download a {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.resume-download a:hover {
+  background-color: #0056b3;
+}
