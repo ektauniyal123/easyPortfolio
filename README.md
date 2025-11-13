@@ -60,5 +60,4 @@ Replace the EmailJS keys with your own for the contact form to function.
 
 Give a Star & Credit
 
-If you use or like this portfolio, please give it a ⭐ and credit my GitHub:
-Ekta Uniyal GitHub
+If you use or like this portfolio, please give it a ⭐ and credit my GitHub:ektauniyal123
